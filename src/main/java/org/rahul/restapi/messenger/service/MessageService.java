@@ -13,7 +13,7 @@ public class MessageService {
 	
 	public MessageService() {
 		Message m4 = new Message(1L, " Podisha Hello world", "Podisha");
-		Message m5 = new Message(1L, " Avaina Hello world", "Avaina");
+		Message m5 = new Message(2L, " Avaina Hello world", "Avaina");
 		messages.put(1L, m4);
 		messages.put(2L, m5);
 	}
