@@ -64,7 +64,11 @@ public class Profile {
 	public void setCreated(Date created) {
 		this.created = created;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "Profile [id=" + id + ", profileName=" + profileName + ", firstName=" + firstName + ", lastName="
+				+ lastName + ", created=" + created + "]";
+	}
 	
 }
