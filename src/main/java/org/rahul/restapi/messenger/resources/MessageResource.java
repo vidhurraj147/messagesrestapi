@@ -80,6 +80,18 @@ public class MessageResource {
 	}
 	
 	
+	@GET
+	@Path("/{messageId}/comments")
+	public CommentResource getCommentResource() {
+		return new CommentResource();
+	}
+	
+//	@GET
+//	@Path("/{messageId}/comments")
+//	public String commentsTest() {
+//		return "comments test";
+//	}
+	
 //	@GET
 //	@Produces(MediaType.TEXT_PLAIN)
 //	public String getMessage() {
